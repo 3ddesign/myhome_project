@@ -1,7 +1,5 @@
 @import 'animate';
 @import 'bootstrap.min';
-@import '_font-awesome.min';
-@import '_simple-line-icons';
 @import 'reset';
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
@@ -28,17 +26,6 @@ a:hover {
 }
 
 
-.myname {
-
-		text-transform: none;
-		font-family: Raleway, "Times New Roman", Times, sans-serif;
-		font-size: 16px;
-		font-style: normal;
-		text-transform: none;
-		margin: 15px 0;
-		color: black;
-		padding-top: 40px;
-}
 
 
 .form-control,
