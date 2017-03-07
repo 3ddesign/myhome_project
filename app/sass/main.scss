@@ -4,7 +4,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
-
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
 	color: #666;
@@ -25,9 +24,6 @@ a:hover {
 	color: #999;
 }
 
-
-
-
 .form-control,
 .navbar a {
 	-webkit-transition: all 0.4s ease-in-out 0s;
@@ -45,9 +41,7 @@ a {
 	-o-transition: all 0.125s ease-in-out 0s;
 	transition: all 0.125s ease-in-out 0s;
 }
-/* ---------------------------------------------- /*
- * Reset box-shadow
-/* ---------------------------------------------- */
+
 .btn,
 .form-control,
 .form-control:focus,
@@ -56,9 +50,8 @@ a {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-/* ---------------------------------------------- /*
- * Typography
-/* ---------------------------------------------- */
+
+
 h1,
 h2,
 h3,
@@ -99,9 +92,7 @@ h6 {
 	letter-spacing: 1px;
 	font-weight: 400;
 }
-/* ---------------------------------------------- /*
- * Reset border-radius
-/* ---------------------------------------------- */
+
 #filter li,
 .btn,
 .form-control,
@@ -114,9 +105,7 @@ h6 {
 	-o-border-radius: 3px;
 	border-radius: 3px;
 }
-/* ---------------------------------------------- /*
- * Input-group
-/* ---------------------------------------------- */
+
 .input-group .form-control {
 	z-index: auto;
 }
@@ -127,9 +116,7 @@ h6 {
 	padding: 6px 15px;
 	font-weight: 700;
 }
-/* ---------------------------------------------- /*
- * Inputs styles
-/* ---------------------------------------------- */
+
 .form-control {
 	background: #FFF;
 	border: 1px solid #D8E1E4;
@@ -167,10 +154,6 @@ textarea.form-control {
     display: inline-block;
 }
 
-
-/* ---------------------------------------------- /*
- * Custom button style
-/* ---------------------------------------------- */
 .btn {
 	font-family: Raleway, sans-serif;
 	text-transform: uppercase;
@@ -186,7 +169,7 @@ textarea.form-control {
 .btn:hover {
 	outline: inherit !important;
 }
-/* Button size */
+
 .btn-group-lg > .btn,
 .btn-lg {
 	padding: 10px 25px;
@@ -220,10 +203,6 @@ textarea.form-control {
 .btn .icon-after {
 	margin-left: 6px;
 }
-/* ---------------------------------------------- /*
- * General Styles
-/* ---------------------------------------------- */
-
 
 .bold {
 	font-weight: 800;
@@ -443,9 +422,7 @@ width: 20px;
 	margin: 0 0 15px;
 	padding: 0;
 }
-/* ---------------------------------------------- /*
- * Skills
-/* ---------------------------------------------- */
+
 .chart {
 	display: inline-block;
 	height: 140px;
@@ -474,15 +451,11 @@ width: 20px;
 	font-size: 50%;
 	margin-left: 0.1em;
 }
-/* ---------------------------------------------- /*
- * Contact
-/* ---------------------------------------------- */
+
 .ajax-response {
 	text-align: center;
 }
-/* ---------------------------------------------- /*
- * Footer
-/* ---------------------------------------------- */
+
 #footer {
 	background: #222;
 	text-align: center;
@@ -533,9 +506,7 @@ width: 20px;
 	border: 1px solid rgba(255, 255, 255, .5);
 	color: rgba(255, 255, 255, .8);
 }
-/* ---------------------------------------------- /*
- * Navigation
-/* ---------------------------------------------- */
+
 .header {
 	border-bottom: 1px solid #f5f5f5;
 	position: relative;
@@ -686,9 +657,7 @@ width: 20px;
 		opacity: 0;
 	}
 }
-/* ---------------------------------------------- /*
- * Preloader
-/* ---------------------------------------------- */
+
 #preloader {
 	background: #FFF;
 	bottom: 0;
@@ -710,9 +679,7 @@ width: 20px;
 	top: 50%;
 	width: 200px;
 }
-/* ---------------------------------------------- /*
- * Media
-/* ---------------------------------------------- */
+
 @media (max-width: 767px) {
 	.calltoaction {
 		text-align: center;
@@ -730,9 +697,7 @@ width: 20px;
 		letter-spacing: 3px;
 	}
 }
-/*--------------------------------*/
-/***** Portfolio Common style *****/
-/*--------------------------------*/
+
 .grid {
 	position: relative;
 	clear: both;
@@ -790,8 +755,7 @@ width: 20px;
 	width: 100%;
 	height: 100%;
 }
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
+
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -818,9 +782,7 @@ width: 20px;
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
-/*---------------*/
-/***** Bubba *****/
-/*---------------*/
+
 figure.effect-bubba {
 	background: #9e5406;
 }
@@ -893,9 +855,7 @@ figure.effect-bubba:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-/*-----------------------*/
-/***** Quote Rotator *****/
-/*-----------------------*/
+
 .cbp-qtrotator {
 	position: relative;
 	margin: 3em auto 0;
@@ -972,7 +932,7 @@ figure.effect-bubba:hover p {
 	float: right;
 	margin-left: 3em;
 }
-/* Example for media query */
+
 @media screen and (max-width: 30.6em) {
 	.cbp-qtrotator {
 		font-size: 70%;
