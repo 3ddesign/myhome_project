@@ -224,10 +224,29 @@ textarea.form-control {
  * General Styles
 /* ---------------------------------------------- */
 
+
 .bold {
-	font-weight: 700;
+	font-weight: 800;
+
 	font-size: 15px;
 }
+.boldextra {
+	font-weight: 800;
+
+	font-size: 18px;
+}
+
+.boldcol {
+		font-weight: 500;
+		color: black;
+}
+
+.boldcolposition {
+		font-weight: 400;
+		color: #028ed2;
+}
+
+
 
 .sktable {
 	text-align: center;
@@ -404,6 +423,7 @@ width: 20px;
 	font-size: 24px;
 	font-weight: 600;
 }
+
 
 .iconbox {
 	background: #fff;
