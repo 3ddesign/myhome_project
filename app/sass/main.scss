@@ -158,6 +158,16 @@ textarea.form-control {
 	max-width: 100%;
 	min-width: 100%;
 }
+
+
+.aboutimg {
+    border-radius: 50%;
+    width: 160px;
+    height: 154px;
+    display: inline-block;
+}
+
+
 /* ---------------------------------------------- /*
  * Custom button style
 /* ---------------------------------------------- */
@@ -213,6 +223,18 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * General Styles
 /* ---------------------------------------------- */
+
+.bold {
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.sktable {
+	text-align: center;
+
+
+}
+
 .pfblock {
 	padding: 120px 0 100px;
 }
