@@ -15,7 +15,7 @@
     "project"
   ],
   "author": "Dmitry Scherbakov",
-  "license": "ISC",
+  "license": "DS",
   "devDependencies": {
     "browser-sync": "^2.18.6",
     "del": "^2.2.2",
