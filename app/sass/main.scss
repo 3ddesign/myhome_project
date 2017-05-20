@@ -51,7 +51,6 @@ a {
 	box-shadow: none;
 }
 
-
 h1,
 h2,
 h3,
@@ -146,12 +145,11 @@ textarea.form-control {
 	min-width: 100%;
 }
 
-
 .aboutimg {
-    border-radius: 50%;
-    width: 160px;
-    height: 154px;
-    display: inline-block;
+	border-radius: 50%;
+	width: 160px;
+	height: 154px;
+	display: inline-block;
 }
 
 .btn {
@@ -206,31 +204,26 @@ textarea.form-control {
 
 .bold {
 	font-weight: 800;
-
 	font-size: 15px;
 }
+
 .boldextra {
 	font-weight: 800;
-
 	font-size: 18px;
 }
 
 .boldcol {
-		font-weight: 500;
-		color: black;
+	font-weight: 500;
+	color: black;
 }
 
 .boldcolposition {
-		font-weight: 400;
-		color: #028ed2;
+	font-weight: 400;
+	color: #028ed2;
 }
-
-
 
 .sktable {
 	text-align: center;
-
-
 }
 
 .pfblock {
@@ -345,7 +338,6 @@ textarea.form-control {
 	margin-bottom: 40px;
 }
 
-
 #home {
 	background: url("../img/bg.jpg");
 	background-color: #222;
@@ -360,16 +352,14 @@ textarea.form-control {
 
 .home-overlay {
 	background-color: rgba(44, 62, 80, 0.3);
-
 	height: 100%;
-
 	width: 100%;
-
 }
 
 .aarup {
 	margin-top: 7px;
-width: 20px;
+	margin-left: 0px;
+	width: 20px;
 }
 
 .intro {
@@ -383,7 +373,6 @@ width: 20px;
 	-ms-transform: translate(0%, -50%);
 	transform: translate(0%, -50%);
 	padding: 0 15px;
-
 }
 
 .intro h1 {
@@ -402,7 +391,6 @@ width: 20px;
 	font-size: 24px;
 	font-weight: 600;
 }
-
 
 .iconbox {
 	background: #fff;
@@ -548,7 +536,7 @@ width: 20px;
 .navbar-custom .navbar-brand {
 	font-weight: 600;
 	font-size: 20px;
-  font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	text-transform: none;
 }
 
@@ -679,7 +667,6 @@ width: 20px;
 	top: 50%;
 	width: 200px;
 }
-
 @media (max-width: 767px) {
 	.calltoaction {
 		text-align: center;
@@ -932,7 +919,6 @@ figure.effect-bubba:hover p {
 	float: right;
 	margin-left: 3em;
 }
-
 @media screen and (max-width: 30.6em) {
 	.cbp-qtrotator {
 		font-size: 70%;
