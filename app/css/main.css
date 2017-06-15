@@ -1182,6 +1182,8 @@ textarea.form-control{padding:15px;max-width:100%;min-width:100%}.aboutimg{borde
 .intro h1{font-weight:800}.start{font-family:Raleway,"Times New Roman",Times,sans-serif;font-size:16px;font-style:normal;text-transform:none;margin:15px 0}
 .s2{font-size:24px;font-weight:600}.iconbox{background:#fff;border-bottom:1px solid #d4d4d4;text-align:center;padding:40px 20px;margin:0 0 20px}
 .iconbox-icon{margin:0 0 15px;font-size:32px;color:#222}.iconbox-title{margin:0 0 15px;padding:0}
+.loader{background:none repeat scroll 0 0 #f5f5f5;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999;background-image:url("../img/preload.svg");background-repeat:no-repeat;background-position:center center}
+.loaderInner{background-image:url("../img/preload.svg");background-repeat:no-repeat;background-position:center center;background-color:#fff;height:60px;width:60px;margin-top:-30px;margin-left:-30px;left:50%;top:50%;position:absolute}
 .chart{display:inline-block;height:140px;margin:50px 0;position:relative;text-align:center;width:140px}
 .chart canvas{left:0;position:absolute;top:0}.percent{display:inline-block;font-size:25px;font-weight:300;line-height:140px;z-index:2}
 .percent:after{content:"%";font-size:50%;margin-left:.1em}
