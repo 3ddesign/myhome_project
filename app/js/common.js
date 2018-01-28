@@ -2,6 +2,30 @@
 
   $(document).ready(function() {
 
+console.log('test');
+
+
+$.ajax({ 
+   type : "PUT", 
+   url : "https://repute.db2dev.com/django/api/property/reviews/summary", 
+   beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'token 8666f32c49000859d46438b27fdc6a3e5e26ccca');},
+  
+  xhrFields: {
+    responseType: 'blob'
+  },
+  success: function(blob){
+    console.log(blob.size);
+      var link=document.createElement('a');
+      link.href=window.URL.createObjectURL(blob);
+      link.download="Dossier_" + new Date() + ".pdf";
+      link.click();
+  }
+
+ });
+
+
+
+
 		// Preloader:
 	  $(window).load(function() {
 	    $(".loaderInner").fadeOut();
